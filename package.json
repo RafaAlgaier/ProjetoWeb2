@@ -1,0 +1,26 @@
+{
+  "name": "projetoweb2",
+  "version": "1.0.0",
+  "description": "Segue o link do protótipo no figma: https://www.figma.com/file/1tQYUut9rho3j4fmDr8KGH/Untitled?type=design&node-id=26%3A5273&mode=design&t=zJ5HV2eBtQxlF6dG-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaAlgaier/ProjetoWeb2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaAlgaier/ProjetoWeb2/issues"
+  },
+  "homepage": "https://github.com/RafaAlgaier/ProjetoWeb2#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
