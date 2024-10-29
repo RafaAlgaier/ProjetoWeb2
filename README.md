@@ -1,8 +1,10 @@
-## ProjetoWeb2
+## Projeto web 2 - shoptimão
 
 
 
-## Endereço de Deploy - GitHub Pages
+## Autor: Rafael Algaier Teixeira
+
+Este projeto tem como objetivo o aprendizado progressivo e a implementação de uma aplicação web inspirada no site de vendas oficial do corinthians.
 
 
 
