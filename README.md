@@ -9,8 +9,7 @@ Este projeto tem como objetivo o aprendizado progressivo e a implementação de 
 
 
 ## Protótipo
-
-https://www.figma.com/file/1tQYUut9rho3j4fmDr8KGH/Untitled?type=design&node-id=26%3A5273&mode=design&t=zJ5HV2eBtQxlF6dG-1
+https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=0-1&node-type=canvas&t=pIchJ4SCAM3YCwuE-0
 
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
