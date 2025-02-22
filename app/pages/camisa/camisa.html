@@ -1,0 +1,157 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link rel="stylesheet" href="../../../styles/output.css" />
+      <title>Camisa</title>
+    </head>
+    <body class="flex flex-col min-h-screen">
+      <div id="header"></div>
+
+      <main class="flex-grow p-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:px-55 gap-2"
+        >
+          <div class="flex justify-center">
+            <img
+              src="../../../assets/camisas/camisa2.png"
+              alt="camisa 22/23 II"
+              class="max-w-full h-auto rounded-t-lg"
+            />
+          </div>
+          <div class="grid gap-y-1">
+            <div class="flex items-start">
+              <p
+                class="flex text-lg font-bold sm:text-lg md:text-2xl lg:text-2xl w-full"
+              >
+                Camisa Corinthians II 24/25 - Memphis N° 94 - Torcedor Nike
+                Masculina - Preto
+              </p>
+            </div>
+            <div class="flex items-start">
+              <p class="flex text-gray-600 line-through w-full">R$ 380,00</p>
+            </div>
+            <div class="flex items-start">
+              <p class="flex text-xl font-bold w-full">R$ 284,00 no Pix</p>
+            </div>
+            <div class="flex items-start">
+              <p class="flex text-gray-600 w-full">
+                ou R$ 299,99 em até 6x sem juros
+              </p>
+            </div>
+            <div class="flex items-start">
+              <p class="flex text-lg w-full font-bold">Tamanho:</p>
+            </div>
+            <div class="flex grid-cols-5 gap-2">
+              <button
+                class="text-gray-700 border-2 font-bold border-gray-400 rounded-full px-2 h-8 text-sm hover:border-gray-900"
+              >
+                P
+              </button>
+              <button
+                class="text-gray-700 font-bold border-2 border-gray-400 rounded-full px-2 h-8 text-sm hover:border-gray-900"
+              >
+                M
+              </button>
+              <button
+                class="text-gray-700 font-bold border-2 border-gray-400 rounded-full px-2 h-8 text-sm hover:border-gray-900"
+              >
+                G
+              </button>
+              <button
+                class="text-gray-700 font-bold border-2 border-gray-400 rounded-full px-2 h-8 text-sm hover:border-gray-900"
+              >
+                GG
+              </button>
+              <button
+                class="text-gray-700 font-bold border-2 border-gray-400 rounded-full px-2 h-8 text-sm hover:border-gray-900"
+              >
+                EGG
+              </button>
+            </div>
+            <div class="flex items-start">
+              <p class="flex text-lg w-full font-bold">Consulta de Frete:</p>
+          </div>
+          <div class="flex items-center gap-x-4">
+              <input
+                  type="text"
+                  id="cepInput"
+                  class="bg-[#f6f7f8] border border-gray-400 text-gray-900 text-sm rounded-lg w-full p-2.5"
+                  placeholder="Digite seu CEP"
+              />
+              <button
+                  id="consultarFreteBtn"
+                  type="button"
+                  class="bg-[#920000] text-white px-4 py-2 rounded-lg hover:bg-red-600"
+              >
+                  Consultar
+              </button>
+          </div>
+          <div id="freteResultado" class="mt-4"></div>
+                <button
+                class="bg-[#920000] italic text-xl font-bold text-white w-full h-15 rounded-lg hover:bg-red-700 animate__animated animate__slideInUp"
+              >
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="bg-black text-white py-6">
+        <div class="container mx-auto text-center">
+          <p class="text-sm">&copy; 2025 ShopTIMÃO. Nenhum direito reservado.</p>
+          <nav class="flex justify-center space-x-6 mt-3">
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+              >Sobre Nós</a
+            >
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+              >Contato</a
+            >
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+              >Política de Privacidade</a
+            >
+          </nav>
+          <div class="flex justify-center space-x-4 mt-4">
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+            >
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22.46 6c-.77.35-1.6.58-2.47.69a4.28 4.28 0 0 0 1.88-2.35 8.53 8.53 0 0 1-2.71 1.03 4.27 4.27 0 0 0-7.28 3.9 12.14 12.14 0 0 1-8.81-4.46 4.28 4.28 0 0 0 1.32 5.7c-.64-.02-1.25-.2-1.78-.5v.05a4.28 4.28 0 0 0 3.42 4.2c-.54.15-1.12.18-1.7.07a4.27 4.27 0 0 0 3.98 2.96 8.56 8.56 0 0 1-5.28 1.82c-.35 0-.69-.02-1.03-.07a12.13 12.13 0 0 0 6.54 1.93c7.86 0 12.5-6.52 12.5-12.18 0-.19 0-.37-.01-.56a8.55 8.55 0 0 0 2.12-2.19z"
+                />
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition duration-300"
+            >
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10c0-5.52-4.48-10-10-10zm4 13.4c0 1.04-.45 1.99-1.15 2.65-3.03-2.11-4.97-3.91-7.15-6.11-1.28-1.32-.76-2.88.81-3.58.97-.48 2.17-.28 2.97.45l3.15 3.21 1.5-1.61c.65-.7.75-1.75.22-2.52-.91-1.12-2.36-.72-3.06-.09-1.1.88-1.47 1.86-.61 2.75 1.5 1.61 2.85 3.08 4.09 4.89z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="module" src="../../service/freteService.js"></script>
+<script type="module" src="./camisa.js"></script>
+
+
+    </body>
+  </html>
