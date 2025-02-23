@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    alert("Login bem-sucedido!"); // Aqui você pode redirecionar o usuário para outra página
-    window.location.href = "index.html";
+    alert("Login bem-sucedido!");
+    window.location.href = "../telainicial/telainicial.html";
   });
 });

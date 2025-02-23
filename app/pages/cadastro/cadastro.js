@@ -1,5 +1,4 @@
-import { User } from "./app/model/user.js";
-// cadastro.js
+import { User } from "../../model/user.js";
 
 // Função auto-executável para implementar o Module Pattern
 (function () {

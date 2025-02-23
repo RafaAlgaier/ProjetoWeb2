@@ -1,26 +1,18 @@
 export class FreteService {
-  static token = "17902|n01nLt69zlzyt9fZ9usTuSFWclRO2v2g"; // Token estático
+  constructor() {
+    this.token = "17974|Xe009wQku3AbcHSNlkZ3f85ZcPUf4vgE";
+    this.baseUrl = "https://api.invertexto.com/v1/cep/";
+  }
 
-  constructor() {}
-
-  async consultarCep(cep) {
-    const url = `https://api.invertexto.com/v1/cep/${cep}?token=${FreteService.token}`;
-
+  async buscarCep(cep) {
     try {
-      console.log("Consultando API:", url); // Verifica se está chamando a API corretamente
-      const response = await fetch(url);
-      console.log("Status da resposta:", response.status); // Verifica o status HTTP
-
+      const response = await fetch(`${this.baseUrl}${cep}?token=${this.token}`);
       if (!response.ok) {
-        throw new Error(`Erro na requisição: ${response.status}`);
+        throw new Error("Erro ao buscar o CEP.");
       }
-
-      const data = await response.json();
-      console.log("Dados retornados:", data); // Exibe os dados retornados pela API
-      return data;
+      return await response.json();
     } catch (error) {
-      console.error("Erro ao consultar o CEP:", error);
-      throw error;
+      throw new Error(error.message);
     }
   }
 }
